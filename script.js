@@ -1,11 +1,11 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
-const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+const yesBtn = document.querySelector(".YA-btn");
+const noBtn = document.querySelector(".TIDA-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "KAMU SUKA BIMA KANN";
+  question.innerHTML = "AKU JUGA SUKA ESTIIE";
   gif.src =
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
 });
